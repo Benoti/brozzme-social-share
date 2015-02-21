@@ -1,0 +1,204 @@
+/* !=!=!=!=!=!=!=!=!=!=!=!=!=!=  brozzme social share !=!=!=!=!=!=!=!=!=!=!=!=!=!= */
+
+ul.entry .social-share li{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+ul.social-share {
+    padding:0;
+    margin:0;
+    padding-top:15px;
+    padding-left:0px!important;
+}
+
+ul.social-share li {
+    list-style:none;
+    display:inline-block;
+    margin:0 0.6em 1em 0;
+    font-size:1em;
+}
+
+ul.social-share li a {
+    font-size:14px;
+
+}
+
+ul.social-share li a, ul.social-share li a:hover{
+    text-decoration:none;
+}
+
+
+.social-share li.facebook a, .social-share li.twitter a,
+.social-share li.google-plus a, .social-share li.linkedin a,.social-share li.pinterest a,
+.social-share li.email-share a, .social-share li.print-share a{
+    color:#fff;
+    background:#444;
+    padding:10px 8px 8px 10px;
+    height:22px;
+    min-height:35px;
+    max-height:40px;
+    min-width:90px;
+    border-bottom:none;
+    display:block;
+
+
+}
+.round{
+    border-radius: 32px;
+}
+.social-share li.facebook a:hover {
+    background:#3b5998;
+}
+
+.social-share li.twitter a:hover {
+    background:#69b5d9;
+}
+
+.social-share li.google-plus a:hover {
+    background:#d54432;
+}
+
+.social-share li.linkedin a:hover {
+    background:#0073ad;
+}
+
+.social-share li.pinterest a:hover{
+    background:#cf2027;
+
+}
+.social-share li.email-share a{
+    white-space: nowrap;
+}
+.social-share li.email-share a:hover {
+    background:#d46f15;
+}
+
+.social-share li.print-share a:hover {
+    background:#07526c;
+}
+
+ul.entry .social-round-share li{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+ul.social-round-share {
+    padding:0;
+    margin:0;
+    padding-top:15px;
+    padding-left:0px!important;
+}
+
+ul.social-round-share li {
+    list-style:none;
+    display:inline-block;
+    margin:0 0.6em 0em 0;
+    font-size:1em;
+}
+
+ul.social-round-share li a {
+    font-size:20px;
+}
+
+ul.social-round-share li a, ul.social-round-share li a:hover{
+    text-decoration:none;
+}
+
+.social-round-share li.facebook a, .social-round-share li.twitter a,
+.social-round-share li.google-plus a, .social-round-share li.linkedin a,.social-round-share li.pinterest a,
+.social-round-share li.email-share a, .social-round-share li.print-share a{
+    color:#fff;
+    background:#444;
+    padding:0px 2px 0px 8px;
+    height:35px;
+    min-height:35px;
+    max-height:35px;
+    min-width:35px;
+    border-bottom:none;
+    display:block;
+    border-radius: 35px;
+
+}
+
+.social-round-share li.facebook a:hover {
+    background:#3b5998;
+}
+
+.social-round-share li.twitter a:hover {
+    background:#69b5d9;
+}
+
+.social-round-share li.google-plus a:hover {
+    background:#d54432;
+}
+
+.social-round-share li.linkedin a:hover {
+    background:#0073ad;
+}
+
+.social-round-share li.pinterest a:hover{
+    background:#cf2027;
+
+}
+.social-round-share li.email-share a{
+    white-space: nowrap;
+}
+.social-round-share li.email-share a:hover {
+    background:#d46f15;
+}
+
+.social-round-share li.print-share a:hover {
+    background:#07526c;
+}
+.clearbis {
+    display:none;
+}
+
+.tss-title {
+ min-width:120px;
+ max-width:240px;
+}
+[class^="tss-title"] {
+    margin: 0.4em;
+    padding: 0.5em;
+    cursor: pointer;
+    background: none repeat scroll 0% 0% #E1E1E1;
+    text-decoration: none;
+    color: #666;
+}
+[class^="tss-round-title"] {
+    margin: 0.2em;
+    padding: 0.3em;
+    cursor: pointer;
+    background: none repeat scroll 0% 0% #E1E1E1;
+    text-decoration: none;
+    color: #666;
+}
+[class^="test-"] {
+    margin: 0.4em;
+    padding: 1em 3em;
+    cursor: pointer;
+    background: none repeat scroll 0% 0% #E1E1E1;
+    text-decoration: none;
+    color: #666;
+    border-radius: 2px;
+
+}
+.test a{
+    color: #000000;
+}
+.test a:hover{
+    color: #FFF;
+}
+
+[class^="hvr-overline-"]:before {
+    content: "";
+    background: #D15820;
+}

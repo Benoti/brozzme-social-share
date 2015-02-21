@@ -1,0 +1,197 @@
+# Copyright (C) 2015 brozzme Social Share
+# This file is distributed under the same license as the brozzme Social Share package.
+msgid ""
+msgstr ""
+"Project-Id-Version: brozzme Social Share 0.1\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/brozzme-social-share\n"
+"POT-Creation-Date: 2015-02-19 21:05:57+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-02-19 23:47+0100\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Last-Translator: Benoît Faure <dev@brozme.com>\n"
+"Language-Team: Benoît Faure <dev@brozzme.com>\n"
+"Language: fr_FR\n"
+"X-Generator: Poedit 1.7.4\n"
+
+#: brozzme-social-share.php:358
+msgid "Share this post on Facebook!"
+msgstr "Partager sur Facebook"
+
+#: brozzme-social-share.php:362
+msgid "Share this post on Twitter!"
+msgstr "Partager sur Twitter!"
+
+#: brozzme-social-share.php:366
+msgid "Share this post on Google Plus!"
+msgstr "Partager sur Google Plus!"
+
+#: brozzme-social-share.php:370
+msgid "Share this post on Linkedin!"
+msgstr "Partager sur Linkedin!"
+
+#: brozzme-social-share.php:374
+msgid "Share on Pinterest"
+msgstr "Partager sur Pinterest!"
+
+#: brozzme-social-share.php:378
+msgid "Envoyer par mail "
+msgstr "Envoyer par email"
+
+#: brozzme-social-share.php:382
+msgid "Imprimer"
+msgstr "Imprimer"
+
+#: includes/tss_options.php:25
+msgid "Your social share settings"
+msgstr "Vos paramêtres de partage sur les réseaux sociaux "
+
+#: includes/tss_options.php:32
+msgid "Display Social Share Title"
+msgstr "Afficher le titre"
+
+#: includes/tss_options.php:40
+msgid "Title effect"
+msgstr "Effet sur le titre"
+
+#: includes/tss_options.php:47
+msgid "Social Share Title"
+msgstr "Titre partage"
+
+#: includes/tss_options.php:54
+msgid "Check social you want"
+msgstr "Cochez les réseaux sociaux que vous voulez"
+
+#: includes/tss_options.php:60
+msgid "<i class=\"fa fa-facebook-square\"></i> Facebook"
+msgstr ""
+
+#: includes/tss_options.php:68
+msgid "<i class=\"fa fa-twitter-square\"> Twitter"
+msgstr ""
+
+#: includes/tss_options.php:76
+msgid "<i class=\"fa fa-google-plus-square\"></i> Google+"
+msgstr ""
+
+#: includes/tss_options.php:84
+msgid "<i class=\"fa fa-linkedin-square\"></i> Linkedin"
+msgstr ""
+
+#: includes/tss_options.php:92
+msgid "<i class=\"fa fa-pinterest-square\"></i> Pinterest"
+msgstr ""
+
+#: includes/tss_options.php:100
+msgid "<i class=\"fa fa-envelope\"></i> Email"
+msgstr ""
+
+#: includes/tss_options.php:107
+msgid "Type your email box text"
+msgstr "Tapez votre texte pour l'email"
+
+#: includes/tss_options.php:114
+msgid "<i class=\"fa fa-print\"></i> Print"
+msgstr "<i class=\"fa fa-print\"></i> Imprimer"
+
+#: includes/tss_options.php:121
+msgid "Type your print box text"
+msgstr "Tapez votre texte pour l'impression"
+
+#: includes/tss_options.php:129
+msgid "Display icon with text"
+msgstr "Afficher icône avec texte"
+
+#: includes/tss_options.php:136
+msgid "Display round buttons"
+msgstr "Afficher les boutons ronds"
+
+#: includes/tss_options.php:143
+msgid "Social box hover style"
+msgstr "Style Hover.css pour le partage"
+
+#: includes/tss_options.php:150
+msgid "Social box style"
+msgstr ""
+
+#: includes/tss_options.php:157
+msgid "Enable Social on posts"
+msgstr "Activer Social Share sur les posts"
+
+#: includes/tss_options.php:171
+msgid "Yes (default mode)"
+msgstr "Oui (par défaut)"
+
+#: includes/tss_options.php:172 includes/tss_options.php:185
+#: includes/tss_options.php:290
+msgid "No"
+msgstr "Non"
+
+#: includes/tss_options.php:173
+msgid "Animate Hover.css title"
+msgstr "Animation Hover.css pour le titre"
+
+#: includes/tss_options.php:184 includes/tss_options.php:289
+msgid "Yes"
+msgstr "Oui"
+
+#: includes/tss_options.php:301
+msgid "Default (link hover)"
+msgstr "Par défaut (lien Hover.css)"
+
+#: includes/tss_options.php:302
+msgid "No link hover"
+msgstr "Pas d'animation Hover.css"
+
+#: includes/tss_options.php:312
+msgid "Default (No effect on hover)"
+msgstr "Par défaut (pas d'effets au survol)"
+
+#: includes/tss_options.php:313
+msgid "Effect on hover"
+msgstr "Effet au survol"
+
+#: includes/tss_options.php:327 includes/tss_options.php:378
+msgid "Please Select another type"
+msgstr "Merci de choisir un autre type"
+
+#: includes/tss_options.php:346 includes/tss_options.php:397
+msgid "Please Select a type"
+msgstr "Merci de choisir un type"
+
+#: includes/tss_options.php:357 includes/tss_options.php:408
+msgid "Select a type above"
+msgstr "Sélectionner un type à côté"
+
+#: includes/tss_options.php:422
+msgid "Default (just shortcode)"
+msgstr "Par défaut (shortcode)"
+
+#: includes/tss_options.php:423
+msgid "Embed on every posts/pages"
+msgstr "Incorporer sur chaque postes/pages"
+
+#: includes/tss_options.php:431
+msgid "Manage your Brozzme Social share settings"
+msgstr "Partage réseaux sociaux"
+
+#: includes/tss_options.php:436
+msgid "Add the social network you want"
+msgstr "Ajouter le réseau social que vous voulez"
+
+#. Plugin Name of the plugin/theme
+msgid "brozzme Social Share"
+msgstr "Brozzme Social Share"
+
+#. Description of the plugin/theme
+msgid "Social share"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Benoît Faure"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://brozzme.com"
+msgstr ""
