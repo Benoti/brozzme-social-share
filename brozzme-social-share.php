@@ -55,6 +55,7 @@ function tss_plugin_activation() {
 }
 
 // load css style for tss
+// todo:change awesome fonts to 4.3
 function tss_frontend_style() {
     wp_enqueue_style( 'tss-frontend-style', plugin_dir_url( __FILE__ )  . 'css/style_tss.css', 'style' );
     wp_enqueue_style( 'tss-hover-style', plugin_dir_url( __FILE__ )  . 'css/hover.css', 'style' );
