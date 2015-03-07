@@ -80,7 +80,7 @@ add_action( 'wp_enqueue_scripts', 'tss_frontend_style', 12);
 function brozzme_social_share(){
     $options = get_option( 'tss_settings' );
     //var_dump($options);
-
+    if(is_single()){
     $share = '<div class="share-brozzme">';
     if($options['tss_display_title']==1 || $options['tss_display_title']==3) {
         if($options['tss_title_effect']!=''){
@@ -179,7 +179,7 @@ function brozzme_social_share(){
         else{ $email_text_title = 'Send by email';}
         $share .= '<li class="email-share luvsocial '.$hover_effect.'">
                 <!--Email-->
-                <a title="Envoyer par email" href="mailto:?subject=Check this post - '.get_the_title().' &body= '.get_permalink().'&title="'.get_the_title().'" email"=""><i class="fa fa-envelope"></i> <span>'.$email_text_title.'</span></a>
+                <a title="Envoyer par email" href="mailto:?subject=Check this post - '.get_the_title().' &body= '.get_permalink().'&title='.get_the_title().'" email=""><i class="fa fa-envelope"></i> <span>'.$email_text_title.'</span></a>
             </li>';
     }
     if($options['tss_checkbox_print']==1){
@@ -206,7 +206,7 @@ function brozzme_social_share(){
         });
     </script>";
 
-
+    }
     return $share;
 }
 
